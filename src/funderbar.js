@@ -207,7 +207,7 @@ return sum;
     //super headache
 
     let total = 0;
-    let stringToNum = 0;
+    // let stringToNum = 0;
     for (let i = 0; i < a.length; i++){
       // console.log(a);
       // if(a[i] === NaN){
@@ -240,8 +240,18 @@ return sum;
   //This function is similar to the above function. Only this time you will be building a sentence rather than a total number. Loop through the array and concatenate the strings in it to make a sentence.
   //If an index in the array is not a string add and empty string ("") to the local variable
   _.forIfElseStr = function (a) {
-    //Code Goes Below
-
+    //cliff
+      let result = '';
+    for (let i = 0; i < a.length; i++){
+      if(typeof a[i] == 'number'){
+        result += '';
+        console.log(result);
+      } else {
+        result += a[i];
+        console.log(result);
+      }
+    }
+    return result;
   }
 
   //In this function you will loop though the passed in array. Prior to that you need to check the second parameter to determine what you will be returning.
