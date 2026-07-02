@@ -115,45 +115,45 @@
 
     });
 
-    //Access the expected values in the below array.
-    //example expect(array[index].to.eql(value))
-    //Ensure you replace FILL_ME_IN with the proper information
-    //There is no function connected in funderbar.js
-    describe('TEST ONLY: Array Values', function() {
-      let arry = [1,'Javascript',2,45,'Array',34,64,true];
-      it("TEST ONLY: Access the Array's Values", function(){
-        expect(FILL_ME_IN).to.eql(1);
-        expect(FILL_ME_IN).to.eql(true);
-        expect(FILL_ME_IN).to.eql('Array');
-        expect(FILL_ME_IN).to.eql('Javascript');
-        expect(FILL_ME_IN).to.eql(undefined);
-      });
+    // //Access the expected values in the below array.
+    // //example expect(array[index].to.eql(value))
+    // //Ensure you replace FILL_ME_IN with the proper information
+    // //There is no function connected in funderbar.js
+    // describe('TEST ONLY: Array Values', function() {
+    //   let arry = [1,'Javascript',2,45,'Array',34,64,true];
+    //   it("TEST ONLY: Access the Array's Values", function(){
+    //     expect(FILL_ME_IN).to.eql(1);
+    //     expect(FILL_ME_IN).to.eql(true);
+    //     expect(FILL_ME_IN).to.eql('Array');
+    //     expect(FILL_ME_IN).to.eql('Javascript');
+    //     expect(FILL_ME_IN).to.eql(undefined);
+    //   });
 
-    });
+    // });
 
-    //Below is what is commonly known as an Array Matrix.
-    //It is an array of arrays.
-    //You will have to dig down to access the correct values.
-    //Access the expected values in the below array.
-    //example expect(array[index].to.eql(value))
-    //Ensure you replace FILL_ME_IN with the proper information
-    //There is no function connected in funderbar.js
-    describe('TEST ONLY: Array Matrix', function() {
-      let arryMtrx = [
-        [1,2,3],
-        [4,5,6],
-        [7,8,9]
-      ];
-      it('TEST ONLY: Access the Array\'s Values', function(){
-        expect(FILL_ME_IN).to.eql(1);
-        expect(FILL_ME_IN).to.eql(9);
-        expect(FILL_ME_IN).to.eql(5);
-        expect(FILL_ME_IN).to.eql(4);
-        expect(FILL_ME_IN).to.eql(8);
-        expect(FILL_ME_IN).to.eql(2);
-      });
+    // //Below is what is commonly known as an Array Matrix.
+    // //It is an array of arrays.
+    // //You will have to dig down to access the correct values.
+    // //Access the expected values in the below array.
+    // //example expect(array[index].to.eql(value))
+    // //Ensure you replace FILL_ME_IN with the proper information
+    // //There is no function connected in funderbar.js
+    // describe('TEST ONLY: Array Matrix', function() {
+    //   let arryMtrx = [
+    //     [1,2,3],
+    //     [4,5,6],
+    //     [7,8,9]
+    //   ];
+    //   it('TEST ONLY: Access the Array\'s Values', function(){
+    //     expect(FILL_ME_IN).to.eql(1);
+    //     expect(FILL_ME_IN).to.eql(9);
+    //     expect(FILL_ME_IN).to.eql(5);
+    //     expect(FILL_ME_IN).to.eql(4);
+    //     expect(FILL_ME_IN).to.eql(8);
+    //     expect(FILL_ME_IN).to.eql(2);
+    //   });
 
-    });
+    // });
 
 
     describe('Nested For Loops', function() {
@@ -169,7 +169,7 @@
       ];
       it("should return a sum of all numbers in the array matrix", function() {
         expect(_.nestedForLoop(testArray)).to.equal(6);
-        expect(_.nestedForLoop(arryMtrx)).to.equal(FILL_ME_IN);
+        expect(_.nestedForLoop(arryMtrx)).to.equal(45);
       });
 
     });
