@@ -263,7 +263,12 @@ return sum;
   // Ideally, you should call the previous two functions
   // in your implementation instead of copy/pasting the 'guts'.
   _.ifElseFor = function (a, b) {
-    //Code Goes Below
+  if (b === 'string') {
+    return _.forIfElseStr(a);
+  } else {
+    return _.forIfElseNum(a);
+  }
+};
 
   }
 
