@@ -3,16 +3,16 @@
 
   window._ = {};
 
-  var FILL_ME_IN = 'Fill this value in';
+  var FILL_ME_IN = 'input';
 
 //_.define is wanting you to declare a variable, set your variable to the input from the function
 // and then return the variable you just created. This function is nearly completed for you, 
 // to help guide you toward success in your work on the following exercises.
   _.define = function(input){
     // Declare a variable below that is assigned the value of input;
-    var result = FILL_ME_IN;
+    var result = input;
     // return the above variable
-    return FILL_ME_IN;
+    return result;
   }
 
 //_.dataType is wanting you to determine the data type of what is being passed into it.
