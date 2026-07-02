@@ -203,7 +203,37 @@ return sum;
   //While looping through the array passed determine the data type of the element. If the element is a number add it to a variable. At the end return that variable.
   //If an index in the array is not a number add 1 to the above mentioned variable
   _.forIfElseNum = function (a) {
-    //Code Goes Below
+    //cliff
+    //super headache
+
+    let total = 0;
+    let stringToNum = 0;
+    for (let i = 0; i < a.length; i++){
+      // console.log(a);
+      // if(a[i] === NaN){
+      //   console.log(a[i]);
+      //   a[i] = 1;
+      //   total += a[i];
+      // console.log(a[i]);
+      // } else {
+      //   total += a[i];
+      // }
+      if(typeof a[i] === 'string'){
+
+        total += 1;
+      console.log(total);
+
+      } else {
+      total += a[i];
+      console.log(total);
+      }
+
+
+
+    }
+    return total;
+    // console.log (total);
+    // return total;
 
   }
 
