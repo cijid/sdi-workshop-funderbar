@@ -110,7 +110,7 @@
 
         expect(_.forLoop(['Coding ', 'is ', 'the ', 'best!'])).to.equal('Coding is the best!');
         expect(_.forLoop(['I ', 'got ', 'this!'])).to.equal('I got this!');
-        expect(_.forLoop([1,2,3,4,5])).to.equal(FILL_ME_IN);
+        expect(_.forLoop([1,2,3,4,5])).to.equal('12345');
       });
 
     });
