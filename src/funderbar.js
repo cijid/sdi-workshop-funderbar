@@ -258,10 +258,14 @@ return sum;
   //If the second parameter is 'string' return a sentence created using the strings in the array. If the second parameter is 'number' you will return the total of the number in the array.
   //You may notice you did this work already in previous functions but need to combine them in some way. Ideally, you should call the previous two functions in your implementation instead of copy/pasting the 'guts'.
   _.ifElseFor = function (a, b) {
-    //Code Goes Below
-
+    //Daren
+    //if b strictly equals a string 
+    if(b === 'string'){
+      return _.forIfElseStr(a);
+    } else {
+      return _.forIfElseNum(a);
+    }
   }
-
   //PART III
   //-------------------------------------------------------------------------
   /*
